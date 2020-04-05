@@ -1,0 +1,421 @@
+*{margin: 0;padding: 0;}
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background: #76d9e4;
+    
+}
+
+#logo{
+    
+    width: 450px;
+    
+}
+
+#logofooter {
+    width: 100px;
+}
+
+h2{ 
+
+    color: #FFD300;
+    text-shadow: 1px 1px 2px black, 0 0 1em darkorange;
+    font-family: Russo One;
+}
+header{
+    width: 100%;
+    background-color:#248782 ;
+   
+    
+}
+
+#headertext {
+    
+    height: auto;
+    font-size: 145%;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(0deg, #93fef7, #004596 );
+   
+    
+}
+
+#logodiv{
+   
+}
+
+#textdiv{
+    min-width: 300px;
+    max-width: 300px;
+    text-align: right;
+    margin-left: auto;
+    padding-right: 50px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    font-family: Russo One, sans-serif ;
+}
+
+#sales{
+    margin-top: 0px;
+    position: absolute; 
+    background:  linear-gradient(21deg, #dd03e4, #5611ec);
+    height: 70px;
+    font-size: 50px;
+    color: #fff;
+    box-shadow: 0 0 10px 5px #5611ec;
+    font-family: Merriweather , sans-serif;
+  
+}
+
+
+
+
+header nav {
+    width: 100%;
+    
+    max-width:100%; 
+    margin: 20px auto;
+    background:#248782;
+    
+   
+}
+
+header nav ol {
+    overflow: hidden; 
+    list-style: none;
+    text-align:center;
+    margin: 0 0 0 1%;
+    
+}
+header nav ol li {
+    float:left;
+
+}
+
+
+section{
+    background-image: linear-gradient(120deg, #93fef7 100%, #96e6a1 100%);
+   
+
+}    
+
+section p {
+    font-size:30px ;
+    
+    font-family: 'Russo One', sans-serif;
+    
+    text-align: center;
+   
+    
+}
+section h2 {font-size:55px;
+font-weight: bold;
+    margin: 20px 0;
+text-align: center;
+}
+header nav ol li a {
+    color:#fff;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+}
+
+
+header nav p {
+    font-size: 22px;
+    margin-top: 20%;
+    padding-right: 5px;
+    color: #2487;}
+
+header nav ol li a:hover {
+    background: #76d9e4;
+}
+
+
+
+.active {
+   
+    cursor:default;
+    
+}
+section{
+    
+    padding:10% 4%;
+    
+    box-shadow: 0 0 40px rgba(0, 0, 0, .2) inset;
+    
+}
+
+
+footer {
+
+       text-align: center;
+       font-size: larger;
+       background-color: #166293;
+       height: auto;
+       color: #fff;
+       padding-top: 50px; 
+}
+footer a,a:link,a:visited {
+
+    text-decoration: none;
+    
+}
+
+#main {
+ 
+}
+
+#email {
+    font-size: medium;
+    text-align: right;
+    color: #fff;
+    margin-right: 30px;
+    margin-bottom: -10px;
+}
+
+#tel{
+    text-align: right;
+    margin-top: -35px;
+}
+
+#service {
+    margin-top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    
+}
+
+.service {
+    width: 250px;
+    height: 250px;
+    border: 15px solid orangered;
+    box-shadow:
+    -15px -15px 2px -5px rgba(160,82,45,.5),
+    -15px 15px 2px -5px rgba(0,255,255,.5),
+    15px -15px 2px -5px rgba(255,0,0,.5),
+    15px 15px 2px -5px rgba(255,255,0,.5);
+    border-radius: 50%;
+    background:linear-gradient( purple, crimson, orangered, gold);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.service p {
+    font-size:27px ;
+    color: #fff;
+    font-family: 'Russo One', sans-serif;
+    margin-top: 50px;
+}
+
+.wrapp {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #248782;
+    margin-top: 50px;
+    min-height: 700px;
+    height: auto;
+    color: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+        -23px 0 20px -23px rgba(0, 0, 0, .8),
+        23px 0 20px -23px rgba(0, 0, 0, .8),
+        0 0 40px rgba(0, 0, 0, .1) inset;
+    border-radius: 30px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
+    
+}
+
+.wrapp p{
+    
+}
+
+.wrapp2 {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color:#EDFFC8 ;
+    margin-top: 50px;
+    min-height: 700px;
+    height: auto;
+    color: #004596;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+        -23px 0 20px -23px rgba(0, 0, 0, .8),
+        23px 0 20px -23px rgba(0, 0, 0, .8),
+        0 0 40px rgba(0, 0, 0, .1) inset;
+    border-radius: 30px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
+    
+}
+
+#map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#map2 {
+    position: absolute;
+    margin-top: 100px;
+    z-index: 0;
+    border: 5px solid #FF8C00;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+}
+
+#formflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#form {
+    background-color: #fff;
+    width: 350px;
+    height: 500px;
+    border: 5px solid #248782;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+}
+
+#button {
+    
+    background: #248782;
+    color: #fff;
+    height: 45px;
+    width: 100px;
+}
+
+input {
+    height: 25px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    font-size: medium;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    outline: none;
+    background: #EDFFC8;
+}
+
+#mess {
+    height: 50px;
+    margin-bottom: -30px;
+}
+
+#main{
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+#footerflex{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#footerdiv {
+    width: 250px;
+    height: 250px;
+}
+
+
+
+@media    screen and (min-width: 1800px){
+    #headertext {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+}
+
+
+@media    screen and (min-width: 800px){
+    #menu {
+        opacity: 0;   
+}
+    #email {
+        font-size: xx-large;
+        position: absolute;
+        right: 0;
+        
+    }
+
+    #logodiv{
+        margin-top: -50px;
+    }
+
+    #textdiv {
+        margin-top: 50px;
+    }
+}
+
+
+
+
+@media    screen and (max-width: 800px){
+header nav {
+    width: 45%;
+    height: 100%;
+    left: -100%;
+    margin: 0;
+    position: fixed;
+
+}
+
+
+
+
+
+
+
+header nav ol li {display: block;
+float: none; border-bottom: 1px solid rgba(255, 255, 255, .3);}
+
+
+header{position: fixed;
+    z-index: 5;
+}
+
+.bt{ 
+display: block; 
+padding:20px ;
+background:#248782;
+color: #fff;
+cursor:pointer;
+text-decoration: none;
+font-weight: bold;
+font-size: 25px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+border: 5px solid rgba(255, 255, 255, .5);
+border-top-style: none;
+border-right-style: none;
+border-left-style: none;
+
+}
+
+
+
+.contenido{
+    margin: 0    0%
+}
+}
